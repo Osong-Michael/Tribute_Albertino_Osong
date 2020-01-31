@@ -8,26 +8,20 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1>My Survey Form</h1>
+    <h1 id="title" class="text-center">My Survey Form</h1>
 
-    <p>Please help us improve our services. <br> Thanks for your time</p>
+    <p id="description" class="description text-center">Please help us improve our services. <br> Thanks for your time</p>
 
-    <div>
-      <form>
-        <label>
-          <p>Name</p>
-        </label>
-        <input type="text">
+    <div class="form-group">
+      <form id="survey-form">
+        <label id="name" for="name">Name</label>
+        <input type="text" name="name" id="name" class="form-contorl" placeholder="Enter your name" required>
 
-        <label>
-          <p>Email</p>
-        </label>
-        <input type="text">
+        <label id="email-label" for="email">Email</label>
+        <input type="email" name="email" id="email" class="form-control" placeholder="Email here" required>
 
-        <label>
-          <p>Age</p>
-        </label>
-        <input type="text">
+        <label id="number-label" for="number">Age</label>
+        <input type="number" name="age" id="number" min="15" max="70" class="form-control" placeholder="Age">
 
 
       </form>
