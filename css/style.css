@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem ;
+    font-weight: 300;
+    line-height: 1.5;
+    color: blue;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 300;
+    line-height: 1.3rem;
+    /* margin-top: 0;
+    margin-bottom: 0.5rem; */
+}
+
+p{
+    font-size: 1.5rem;
+   
+}
+
+/* h1, p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+} */
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
